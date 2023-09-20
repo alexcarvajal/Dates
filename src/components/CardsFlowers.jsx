@@ -49,7 +49,6 @@ function CardsFlowers() {
         <button onClick={previousImage} className="slider-button previous"> <SlArrowLeft /> </button>
         <button onClick={nextImage} className="slider-button next"> <SlArrowRight /> </button>
     </div>
-    <h2 className="text-down">Hoy no serán solo amarillas porque te mereces todas las que existen </h2>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SlArrowLeft } from "react-icons/sl";
-import './bubble.css'
+import '../../styles/bubble.css'
 function FlowerPurple (){
   const rows = 5;
   const cols = 5;
@@ -18,8 +18,7 @@ function FlowerPurple (){
     setIsImageOpaque(!allBubblesPopped);
   };
   return (
-    //para la flecha superior izquierda que regresa a la pagina anterior
-//quisiera poner el titulo arriba del container pero no se como
+   
   
 <div 
     style={{
@@ -46,6 +45,7 @@ function FlowerPurple (){
     }}
   >
     {bubbles.map((isBubbleVisible, index) => (
+      
         <div
           key={index}
           className={isBubbleVisible ? "bubble" : "bubble-popped"}
