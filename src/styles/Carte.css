@@ -1,0 +1,110 @@
+.containerCarte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    position: relative;
+    height: 80vh;
+    opacity: 0.8;
+  }
+  
+  .containerCarte::before {
+    content: "";
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://i.pinimg.com/originals/b9/a5/a5/b9a5a5ab199cf14f2dc410931c96d0ed.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+  
+  .image-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    max-width: 30%;
+  }
+  
+  .top-left {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .bottom-right {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .text-container {
+    position: relative;
+    margin-bottom: 100px; /* Agregamos un margen inferior para dejar espacio para las imágenes */
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .text:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .BackContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center; /* Ajustamos la propiedad text-align para centrar el botón */
+  }
+  
+  .Back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #26289b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 120%; /* Ajustamos la propiedad width para hacer el botón más ancho */
+  }
+
+  @media (max-width: 600px){
+
+    .containerCarte{
+      height: 100vh;
+    }
+    .containerCarte::before {
+      content: "";
+      position: absolute;
+      top: 200px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("https://i.pinimg.com/originals/b9/a5/a5/b9a5a5ab199cf14f2dc410931c96d0ed.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.5;
+    }
+
+  }

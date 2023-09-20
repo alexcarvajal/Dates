@@ -1,0 +1,12 @@
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 25vh;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }

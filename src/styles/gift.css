@@ -1,0 +1,124 @@
+.gift-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.gift {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  font-size: large;
+}
+
+.cardGift {
+  background-color: rgba(253,164,181,0.8);
+
+border-radius: 26px;
+
+box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+  max-width: 80%;
+  padding: 20px;
+  margin-top: 25%;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -400px;
+  padding: 1rem;
+  cursor: pointer;
+  display: block;
+}
+
+#ButtonBackGift{
+  width: 20%;
+  margin-left:35%;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #26289b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.Giftimg{
+  max-width: 20%;
+  width: 80%;
+  margin: 0 auto;
+  height: 150px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.card > p {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.cardGift > p.showGift {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+  
+}
+
+.cardGift > div.showGift > button.showGift {
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+.showGift{
+  cursor: pointer;
+}
+.cardGift > div.showGift + .title {
+  opacity: 1;
+  display: none;
+  transition: opacity 0.3s ease-in;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -ms-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+@media (max-width: 600px) {
+  .gift{
+    margin-top: auto;
+    width: 95%;
+  }
+  .cardGift {
+    max-width: 90%;
+    margin-top: 5%;
+  }
+  .Giftimg{
+    max-width: 300px;
+    width: 80%;
+    margin-bottom: 50%;
+    height: 200px;
+    position: relative;
+    
+  }
+  .title{
+    margin-bottom: 110%;
+    position: absolute;
+  }
+}

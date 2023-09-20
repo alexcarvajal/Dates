@@ -1,0 +1,24 @@
+
+.buttonHomeGame{
+    width: 10%;
+    margin-left: 50%;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #26289b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+  
+}
+
+@media (max-width: 600px){
+   
+   .buttonHomeGame{
+    margin-left: 40%;
+   
+}
+   
+}
