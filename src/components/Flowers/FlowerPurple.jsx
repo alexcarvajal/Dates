@@ -18,8 +18,7 @@ function FlowerPurple (){
     setIsImageOpaque(!allBubblesPopped);
   };
   return (
-   
-  
+
 <div 
     style={{
       display: 'flex',
@@ -45,7 +44,6 @@ function FlowerPurple (){
     }}
   >
     {bubbles.map((isBubbleVisible, index) => (
-      
         <div
           key={index}
           className={isBubbleVisible ? "bubble" : "bubble-popped"}
@@ -57,3 +55,6 @@ function FlowerPurple (){
   )
 }
 export default FlowerPurple
+
+
+
