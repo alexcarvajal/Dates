@@ -12,9 +12,9 @@ function CardsFlowers() {
     const [currentFlower, setCurrentFlower] = useState(0)
     const flowers = [
        {src:Amarilla, link:"/yellow/flower-yellow"},
-       {src:Morada,link:"/flower-purple"},
-       {src:Roja,link:"/red/flower-red"},
-       {src:Verde, link:"/green/flower-green"}
+       {src:Morada,link:"/yellow/flower-purple"},
+       {src:Roja,link:"/yellow/flower-red"},
+       {src:Verde, link:"/yellow/flower-green"}
     ]
     const colors = [
         'rgba(255, 255, 0, 0.5)',

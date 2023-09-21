@@ -20,12 +20,12 @@ function App() {
                 <Route path="/dashboard" element={<Dashboard />}/> 
                 <Route path="/letter" element ={<Letter />}/>
                 <Route path="/game" element = {<Game />} />
-                <Route path='/aniversary' element = {<Gift />}/>
+                <Route path='/anniversary' element = {<Gift />}/>
                 <Route path='/yellow' element = {<YellowFlowers/>} />
                 <Route path='/yellow/flower-yellow' element = {<FlowerYellow/>} />
-                <Route path='/flower-purple' element = {<FlowerPurple/>} />
-                <Route path='/red/flower-red' element = {<FlowerRed/>} />
-                <Route path='/green/flower-green' element = {<FlowerGreen/>} />
+                <Route path='/yellow/flower-purple' element = {<FlowerPurple/>} />
+                <Route path='/yellow/flower-red' element = {<FlowerRed/>} />
+                <Route path='/yellow/flower-green' element = {<FlowerGreen/>} />
             </Routes>
         </BrowserRouter>
     </>
