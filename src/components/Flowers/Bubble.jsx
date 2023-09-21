@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { SlArrowLeft } from "react-icons/sl";
 import '../../styles/bubble.css'
-function Bubble() {
+const Bubble = () => {
     const rows = 5;
     const cols = 5;
     const totalBubbles = rows * cols;
